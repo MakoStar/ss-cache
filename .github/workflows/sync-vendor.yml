@@ -1,0 +1,94 @@
+name: Sync vendor data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-vendor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          path: 'source_repo'
+          fetch-depth: 0
+
+      - name: Setup python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "coloredlogs>=15.0.1" \
+            "fake-useragent>=2.2.0" \
+            "requests>=2.34.2" \
+            "unitypy>=1.25.0" 
+        shell: bash
+      
+      - name: Run scripts
+        working-directory: source_repo/scripts/python/client-config-extractor
+        run: |
+          python ./main.py
+        shell: bash
+
+      - name: Commit data
+        working-directory: source_repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          SOURCE_DIR="scripts/python/client-config-extractor/output"
+          TARGET_DIR="client-config"
+          VERSION_FILE="$TARGET_DIR/version.json"
+      
+          if [ -d "$SOURCE_DIR" ]; then
+            # rsync -a --delete "$SOURCE_DIR"/ "$TARGET_DIR"/
+            rsync -a "$SOURCE_DIR"/ "$TARGET_DIR"/
+          else
+            echo "Script output directory not found!"
+            exit 1
+          fi
+      
+          if [ ! -f "$VERSION_FILE" ]; then
+            echo "version.json not found!"
+            exit 1
+          fi
+      
+          # 检查 version.json 是否有变更
+          git add "$VERSION_FILE"
+          if git diff --staged --quiet -- "$VERSION_FILE"; then
+            echo "version.json has not changed, skipping commit"
+            git reset HEAD "$VERSION_FILE"
+            exit 0
+          fi
+      
+          # 版本有变化 -> 先提交 version.json
+          git commit -m "update: version.json"
+      
+          # 遍历区域并提交对应目录
+          for region in $(jq -r 'keys[]' "$VERSION_FILE"); do
+            version=$(jq -r ".\"$region\"" "$VERSION_FILE")
+            region_lower="${region,,}"
+            REGION_DIR="$TARGET_DIR/$region"
+            
+            if [ -d "$REGION_DIR" ]; then
+              git add "$REGION_DIR/"
+              if ! git diff --staged --quiet -- "$REGION_DIR/"; then
+                git commit -m "chore($region_lower): $version"
+              else
+                git reset HEAD "$REGION_DIR/"
+                echo "No changes in $region, skipping"
+              fi
+            else
+              echo "Directory $REGION_DIR not found, skipping"
+            fi
+          done
+      
+          # 推送所有提交
+          git push
