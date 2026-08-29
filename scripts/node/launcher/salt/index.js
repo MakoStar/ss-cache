@@ -175,7 +175,7 @@ const extractSaltFromFile = (filePath) => {
         const pkgBaseUrl = buildUrl(PKG_URL, PKG_ROUTE, TAG);
         const retrieveUrl = buildUrl(pkgBaseUrl, PKG_LATEST_YML);
         
-        console.log(`⬇️  Fetching: ${retrieveUrl}`);
+        console.log(`⬇️ Fetching: ${retrieveUrl}`);
         const ymlContent = await getRegionAxiosClient(region).get(retrieveUrl, { _isDownload: true });
         const latestConfig = yaml.load(ymlContent, { schema: yaml.FAILSAFE_SCHEMA });
         const regionOutputDir = path.join(ROOT_OUTPUT, region);
@@ -189,7 +189,7 @@ const extractSaltFromFile = (filePath) => {
         const storageDir = path.join(DATA_STORAGE, region);
         const launcherDest = path.join(storageDir, path.basename(targetLauncherPath));
 
-        console.log(`⬇️  Downloading launcher: ${launcherUrl}`);
+        console.log(`⬇️ Downloading launcher: ${launcherUrl}`);
         await downloader(launcherUrl, launcherDest);
 
         const tempDir = path.join(storageDir, "temp");
