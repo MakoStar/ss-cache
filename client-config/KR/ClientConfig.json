@@ -1,0 +1,35 @@
+{
+    "buildVersion": "2026_0708_1649",
+    "buildTag": "Rel-KR",
+    "isOpenGM": false,
+    "useLocalResourcesDownloadServer": false,
+    "localResourcesDownloadServerUrl": "http://127.0.0.1:5123/res",
+    "backupServerUrlPrefix": "bak-",
+    "vendorEnvData": [
+        {
+            "name": "KR",
+            "vendorDisplayName": "KR",
+            "flags": 1,
+            "clientVersion_Android": "1.13.0",
+            "clientVersion_IOS": "1.13.0",
+            "clientVersion_Windows": "1.13.0",
+            "timeZone": 8,
+            "localLanguage": "ko_KR",
+            "voiceLanguage": "ja_JP",
+            "availableTextLanguages": [
+                "ko_KR"
+            ],
+            "availableVoiceLanguages": [
+                "ja_JP",
+                "zh_CN"
+            ],
+            "sdkName": "KR",
+            "serverURL": "https://nova-static.stellasora.kr",
+            "serverChannelName": "Official",
+            "serverMetaKey": "U9cjHuwGDDx&$drn",
+            "reviewServerMetaKey": "cC9VVaX7TnP5F&33",
+            "serverGarbleKey": "25hdume9H#*6hHn@d9hSF7tekTwN#JYj",
+            "reviewServerGarbleKey": "u7!AY$gby7GKMyyE8xQnqxe$ahph!2yU"
+        }
+    ]
+}
