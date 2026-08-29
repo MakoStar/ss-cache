@@ -1,0 +1,12 @@
+[project]
+name = "client-config-extractor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "coloredlogs>=15.0.1",
+    "fake-useragent>=2.2.0",
+    "requests>=2.34.2",
+    "unitypy>=1.25.0",
+]
