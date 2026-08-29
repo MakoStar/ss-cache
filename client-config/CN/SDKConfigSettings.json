@@ -1,0 +1,87 @@
+﻿{
+ "sdk_url": "https://sdk-api.yostar.cn",
+ "sdk_pid": "CN-NOVA",
+ "channel": "official",
+ "ali": {
+  "internet_detection": {
+   "init": {
+    "secret_key": "eyJhbGl5dW5fdWlkIjoiMTI5NDA1ODU3MDYyMTk5MCIsImlwYV9hcHBfaWQiOiJBelVySnh2Nm1aOVRQR1hYZnhVSEZuIiwic2VjX2tleSI6IjhmMTg3OTljOTI5NjU4ODhmYjYwMmY5MmFlZjczNzIxMzgxMmUzZmM3ZTgyNWE5OGUxNWM2NTE3ZWNjZDk5ZTVmYmUwMzliOWVjODc4NjI4OTQ5MjJjZjdjZDNlZWVkZWY2MTgxOTZiYWRiYmM0MjFiYmI0OTYyMDhjMzY5NWIyIiwic2lnbiI6ImEwOGJkNTc4ZjU0ZjhjMzgxZWI5YzkyNzQ2ZDVmYzQzYWYwNzVlMjY0YmI3ODRmMmNjMDhjMDI3ZGJlYTU4YjllYTdjODEzOGY1ODE1MGVmNTJhZjhkMWRmNDI4ODVkNGI3OWFjOTBmMTVhYzYwYmRkMmI0MzAxM2Y1ZGRjMjBkIn0=",
+    "endpoint": "https://cn-shanghai.log.aliyuncs.com",
+    "project": "yostar-cn-netsdk-logging",
+    "access_key_id": "7b5d0ffd0943f26704fc547a871c68b1b5d56b5c9caeb354205b81f445d7af59",
+    "access_key_secret": "4a5e9cc8a50819290c9bfa1fedc79da7c50e85189a05eb462a3d28a7688eabb0"
+   },
+   "internet_url": "https://www.baidu.com",
+   "auto_url": {
+    "http": [
+     "https://nova-static.yostar.cn/meta/serverlist.html",
+     "https://sdk-api.yostar.cn"
+    ],
+    "ping": [
+     "https://nova-static.yostar.cn/meta/serverlist.html",
+     "https://sdk-api.yostar.cn"
+    ],
+    "tcpping": [
+     "https://nova-static.yostar.cn/meta/serverlist.html",
+     "https://sdk-api.yostar.cn"
+    ],
+    "mtr": [
+     "https://nova-static.yostar.cn/meta/serverlist.html",
+     "https://sdk-api.yostar.cn"
+    ],
+    "dns": [
+     "https://nova-static.yostar.cn/meta/serverlist.html",
+     "https://sdk-api.yostar.cn"
+    ]
+   },
+   "log": {
+    "endpoint": "https://cn-shanghai.log.aliyuncs.com",
+    "project": "yostar-cn-client-logging",
+    "logstore": "yostar-cn-client-logging",
+    "access_key_id": "7b5d0ffd0943f26704fc547a871c68b1b5d56b5c9caeb354205b81f445d7af59",
+    "access_key_secret": "4a5e9cc8a50819290c9bfa1fedc79da7c50e85189a05eb462a3d28a7688eabb0"
+   }
+  }
+ },
+ "android": {
+  "udata_oaidkey": "",
+  "udata_oeappid": "1",
+  "cs_enable": 1,
+  "cs_url": "https://customer.yostar.net/",
+  "qq_appid": "",
+  "weibo_appid": "",
+  "weibo_callback": "",
+  "weixin_appid": ""
+ },
+ "harmony": {
+  "cs_enable": 1,
+  "cs_url": "",
+  "client_id": "",
+  "app_id": ""
+ },
+ "ios": {
+  "udata_oaidkey": "",
+  "udata_oeappid": "",
+  "cs_enable": 1,
+  "cs_url": "https://customer.yostar.net",
+  "qq_appid": "",
+  "weibo_appid": "",
+  "weibo_callback": "",
+  "weixin_appid": "",
+  "universal_link_domin": "applinks:"
+ },
+ "pc": {
+  "cs_enable": 1,
+  "cs_url": "https://customer-pc.yostar.net/#/",
+  "cs_api_url": "https://customer.yostar.net/"
+ },
+ "mac": {
+  "cs_enable": 0,
+  "cs_url": "",
+  "cs_api_url": ""
+ },
+ "plist": {
+  "user_tracking_usage_description": "为了提供更好的游戏体验，我们想访问您的广告标识符。",
+  "location_when_in_use_usage_description": "为向您优化游戏内相关功能体验，我们需要在您使用 App 期间获取位置信息。数据仅用于游戏功能，不会在后台收集。"
+ }
+}
