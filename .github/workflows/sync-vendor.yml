@@ -65,7 +65,7 @@ jobs:
           if git diff --staged --quiet -- "$VERSION_FILE"; then
             echo "version.json has not changed, skipping commit"
             git reset HEAD "$VERSION_FILE"
-            # exit 0
+            exit 0
           fi
       
           # 版本有变化 -> 先提交 version.json
