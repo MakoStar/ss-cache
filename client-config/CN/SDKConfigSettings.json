@@ -51,7 +51,8 @@
   "qq_appid": "",
   "weibo_appid": "",
   "weibo_callback": "",
-  "weixin_appid": ""
+  "weixin_appid": "",
+  "reject_quit_enable": 0
  },
  "harmony": {
   "cs_enable": 1,

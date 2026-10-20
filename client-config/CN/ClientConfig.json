@@ -1,5 +1,5 @@
 {
-    "buildVersion": "2026_0708_1623",
+    "buildVersion": "2026_0928_2234",
     "buildTag": "Rel-CN",
     "isOpenGM": false,
     "useLocalResourcesDownloadServer": false,
@@ -10,9 +10,9 @@
             "name": "CN",
             "vendorDisplayName": "CN",
             "flags": 0,
-            "clientVersion_Android": "1.13.0",
-            "clientVersion_IOS": "1.13.0",
-            "clientVersion_Windows": "1.13.0",
+            "clientVersion_Android": "2.0.0",
+            "clientVersion_IOS": "2.0.0",
+            "clientVersion_Windows": "2.0.0",
             "timeZone": 8,
             "localLanguage": "zh_CN",
             "voiceLanguage": "zh_CN",
@@ -26,10 +26,10 @@
             "sdkName": "CN",
             "serverURL": "https://nova-static.yostar.cn",
             "serverChannelName": "Official",
-            "serverMetaKey": "Xf&FRcsYm48cJ2A@",
-            "reviewServerMetaKey": "yBFPVNef$az$4pPd",
-            "serverGarbleKey": "QW*Wi7fKjLk!T82Qf2nEGZA%nSC!D9qV",
-            "reviewServerGarbleKey": "VkFLC!HcW@R2X$snHV8Rsusd*u9fV&8f"
+            "serverMetaKey": "Official",
+            "reviewServerMetaKey": "Xf&FRcsYm48cJ2A@",
+            "serverGarbleKey": "2T%h&FN2Yg*%229p",
+            "reviewServerGarbleKey": "QW*Wi7fKjLk!T82Qf2nEGZA%nSC!D9qV"
         }
     ]
 }
