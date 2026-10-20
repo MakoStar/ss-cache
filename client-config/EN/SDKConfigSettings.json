@@ -70,7 +70,8 @@
     "Fcm_Push_Switch": 1,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "GooglePlay": {
     "FB_AppId": "",
@@ -86,7 +87,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Amazon": {
     "FB_AppId": "",
@@ -102,7 +104,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "PC": {
     "FB_AppId": "",
@@ -118,7 +121,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "OneStore": {
     "FB_AppId": "",
@@ -134,7 +138,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Samsung": {
     "FB_AppId": "",
@@ -150,23 +155,25 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Steam": {
     "FB_AppId": "",
     "FB_ClientToken": "",
     "TW_Key": "",
-    "Aihelp_Enable": 0,
-    "Aihelp_Api_Key": "",
-    "Aihelp_Domain": "",
-    "Aihelp_Appid": "",
+    "Aihelp_Enable": 1,
+    "Aihelp_Api_Key": "YOSTAR1_app_bc226f4419a7447c9de95711f8a2d3d9",
+    "Aihelp_Domain": "yostar1.aihelp.net",
+    "Aihelp_Appid": "yostar1_platform_2db52a57068b1ee3fe3652c8b53d581b",
     "Help_Page_Url": "",
     "Help_Email": "",
     "Pgs_Appid": "",
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    }
   },
   "Kr": {
@@ -218,7 +225,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "GooglePlay": {
     "FB_AppId": "",
@@ -234,7 +242,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "OneStore": {
     "FB_AppId": "",
@@ -250,7 +259,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Amazon": {
     "FB_AppId": "",
@@ -266,7 +276,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "PC": {
     "FB_AppId": "",
@@ -282,7 +293,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Samsung": {
     "FB_AppId": "",
@@ -298,7 +310,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Steam": {
     "FB_AppId": "",
@@ -314,7 +327,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    }
   },
   "Jp": {
@@ -366,7 +380,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "GooglePlay": {
     "FB_AppId": "",
@@ -382,7 +397,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Amazon": {
     "FB_AppId": "",
@@ -398,7 +414,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "PC": {
     "FB_AppId": "",
@@ -414,7 +431,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "OneStore": {
     "FB_AppId": "",
@@ -430,7 +448,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Samsung": {
     "FB_AppId": "",
@@ -446,7 +465,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Steam": {
     "FB_AppId": "",
@@ -462,7 +482,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    }
   },
   "Tw": {
@@ -514,7 +535,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "GooglePlay": {
     "FB_AppId": "",
@@ -530,7 +552,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Amazon": {
     "FB_AppId": "",
@@ -546,7 +569,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "PC": {
     "FB_AppId": "",
@@ -562,7 +586,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "OneStore": {
     "FB_AppId": "",
@@ -578,7 +603,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Samsung": {
     "FB_AppId": "",
@@ -594,7 +620,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Steam": {
     "FB_AppId": "",
@@ -610,7 +637,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    }
   },
   "Mn": {
@@ -662,7 +690,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "GooglePlay": {
     "FB_AppId": "",
@@ -678,7 +707,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Amazon": {
     "FB_AppId": "",
@@ -694,7 +724,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "PC": {
     "FB_AppId": "",
@@ -710,7 +741,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "OneStore": {
     "FB_AppId": "",
@@ -726,7 +758,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Samsung": {
     "FB_AppId": "",
@@ -742,7 +775,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    },
    "Steam": {
     "FB_AppId": "",
@@ -758,7 +792,8 @@
     "Fcm_Push_Switch": 0,
     "Universal_Link_Domains": "",
     "App_Link": "",
-    "Scheme_Url": ""
+    "Scheme_Url": "",
+    "UIScene_Enable": 0
    }
   }
  },
