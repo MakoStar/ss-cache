@@ -1,5 +1,5 @@
 {
-    "buildVersion": "2026_0708_1633",
+    "buildVersion": "2026_0928_2220",
     "buildTag": "Rel-TW",
     "isOpenGM": false,
     "useLocalResourcesDownloadServer": false,
@@ -10,9 +10,9 @@
             "name": "TW",
             "vendorDisplayName": "TW",
             "flags": 1,
-            "clientVersion_Android": "1.13.0",
-            "clientVersion_IOS": "1.13.0",
-            "clientVersion_Windows": "1.13.0",
+            "clientVersion_Android": "2.0.0",
+            "clientVersion_IOS": "2.0.0",
+            "clientVersion_Windows": "2.0.0",
             "timeZone": 8,
             "localLanguage": "zh_TW",
             "voiceLanguage": "zh_CN",
@@ -26,10 +26,10 @@
             "sdkName": "TW",
             "serverURL": "https://nova-static.stargazer-games.com",
             "serverChannelName": "Official",
-            "serverMetaKey": "owGYVDmfHrxi^4pm",
-            "reviewServerMetaKey": "vR$cUNH7J^L62wKL",
-            "serverGarbleKey": "N&mfco452ZH5!nE3s&o5uxB57UGPENVo",
-            "reviewServerGarbleKey": "rF53#N6YxTF2jpcUkLD7Hf%sqB*S*uuN"
+            "serverMetaKey": "Official",
+            "reviewServerMetaKey": "owGYVDmfHrxi^4pm",
+            "serverGarbleKey": "^ayERq^Lq9RgAdYr",
+            "reviewServerGarbleKey": "N&mfco452ZH5!nE3s&o5uxB57UGPENVo"
         }
     ]
 }
