@@ -25,11 +25,12 @@
             ],
             "sdkName": "CN",
             "serverURL": "https://nova-static.yostar.cn",
+            "serverLoginName": "Official",
             "serverChannelName": "Official",
-            "serverMetaKey": "Official",
-            "reviewServerMetaKey": "Xf&FRcsYm48cJ2A@",
-            "serverGarbleKey": "2T%h&FN2Yg*%229p",
-            "reviewServerGarbleKey": "QW*Wi7fKjLk!T82Qf2nEGZA%nSC!D9qV"
+            "serverMetaKey": "Xf&FRcsYm48cJ2A@",
+            "reviewServerMetaKey": "2T%h&FN2Yg*%229p",
+            "serverGarbleKey": "QW*Wi7fKjLk!T82Qf2nEGZA%nSC!D9qV",
+            "reviewServerGarbleKey": "Jue2kK8PFB3HjB3x@A8MFS2KbWAF^xUi"
         }
     ]
 }
