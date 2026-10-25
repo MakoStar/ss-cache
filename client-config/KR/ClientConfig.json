@@ -25,11 +25,12 @@
             ],
             "sdkName": "KR",
             "serverURL": "https://nova-static.stellasora.kr",
+            "serverLoginName": "Official",
             "serverChannelName": "Official",
-            "serverMetaKey": "Official",
-            "reviewServerMetaKey": "U9cjHuwGDDx&$drn",
-            "serverGarbleKey": "vV5$yss6y2i8%JVb",
-            "reviewServerGarbleKey": "25hdume9H#*6hHn@d9hSF7tekTwN#JYj"
+            "serverMetaKey": "U9cjHuwGDDx&$drn",
+            "reviewServerMetaKey": "vV5$yss6y2i8%JVb",
+            "serverGarbleKey": "25hdume9H#*6hHn@d9hSF7tekTwN#JYj",
+            "reviewServerGarbleKey": "HjW&k*FT9xt$gZZo4HW7%YM%EnDEz*9G"
         }
     ]
 }
