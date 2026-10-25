@@ -25,11 +25,12 @@
             ],
             "sdkName": "TW",
             "serverURL": "https://nova-static.stargazer-games.com",
+            "serverLoginName": "Official",
             "serverChannelName": "Official",
-            "serverMetaKey": "Official",
-            "reviewServerMetaKey": "owGYVDmfHrxi^4pm",
-            "serverGarbleKey": "^ayERq^Lq9RgAdYr",
-            "reviewServerGarbleKey": "N&mfco452ZH5!nE3s&o5uxB57UGPENVo"
+            "serverMetaKey": "owGYVDmfHrxi^4pm",
+            "reviewServerMetaKey": "^ayERq^Lq9RgAdYr",
+            "serverGarbleKey": "N&mfco452ZH5!nE3s&o5uxB57UGPENVo",
+            "reviewServerGarbleKey": "a3SqRDozk9vJ3jUwo*gSDsjSDk&ze2Q3"
         }
     ]
 }
