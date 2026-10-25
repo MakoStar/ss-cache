@@ -108,11 +108,12 @@ class ClientConfigParser:
             "availableVoiceLanguages": reader.read_string_array(), # 0x60
             "sdkName": reader.read_string(), # 0x68
             "serverURL": reader.read_string(), # 0x70
-            "serverChannelName": reader.read_string(), # 0x78
-            "serverMetaKey": reader.read_string(), # 0x80
-            "reviewServerMetaKey": reader.read_string(), # 0x88
-            "serverGarbleKey": reader.read_string(), # 0x90
-            "reviewServerGarbleKey": reader.read_string(), # 0x98
+            "serverLoginName": reader.read_string(), # 0x78
+            "serverChannelName": reader.read_string(), # 0x80
+            "serverMetaKey": reader.read_string(), # 0x88
+            "reviewServerMetaKey": reader.read_string(), # 0x90
+            "serverGarbleKey": reader.read_string(), # 0x98
+            "reviewServerGarbleKey": reader.read_string(), # 0xA0
         }
     
 
